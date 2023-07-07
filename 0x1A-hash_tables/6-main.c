@@ -25,16 +25,16 @@ int main(void)
 	key = strdup("Tim");
 	value = strdup("Britton");
 	hash_table_set(ht, key, value);
- 	key[0] = '\0';
+	key[0] = '\0';
 	value[0] = '\0';
 	free(key);
 	free(value);
-	hash_table_set(ht, "98", "Battery Street"); 
+	hash_table_set(ht, "98", "Battery Street");
 	hash_table_set(ht, "hetairas", "Bob");
 	hash_table_set(ht, "hetairas", "Bob Z");
 	hash_table_set(ht, "mentioner", "Bob");
 	hash_table_set(ht, "hetairas", "Bob Z Chu");
- 	hash_table_print(ht);
+	hash_table_print(ht);
 	hash_table_delete(ht);
 	return (EXIT_SUCCESS);
 }
